@@ -9,10 +9,9 @@ inquirer
     {
         type: 'input',
         message: 'What is your GitHub user name?',
-        name: 'username',
+        name: 'github',
     },
     {
-        //type password will not show the entered information on screen
         type: 'input',
         message: 'What is your email address?',
         name: 'email',
@@ -25,32 +24,32 @@ inquirer
     {
         type: 'input',
         message: 'Please provide a description of your project:',
-        name: 'projectDescrip',
+        name: 'description',
     },
     {
         type: 'input',
         message: 'Please provide installation instructions: ',
-        name: 'projectInstall',
+        name: 'install',
     },
     {
         type: 'input',
-        message: 'Is there any usuage information?',
-        name: 'projectUsuage',
+        message: 'Is there any usage information?',
+        name: 'usage',
     },
     {
         type: 'input',
         message: 'Is there any contribution guidelines?',
-        name: 'projectGuide',
+        name: 'contribution',
     },
     {
         type: 'input',
         message: 'Is there any test instructions?',
-        name: 'projectTest',
+        name: 'test',
     },
     {
         type: 'list',
         message: 'Please choose from one of the following license: ',
-        name: 'projectLicense',
+        name: 'license',
         choice: ['none', 'Apache License 2.0', 'GNU General Public License v3.0', 'MIT License', 'BSD 2-Clause Simplified License', 'BSD 3-Clause New or Revised License', 'Boost Software License 1.0', 'Creative Commons Zero v1.0 Universal', 'Eclipse Public License 2.0', 'GNU Affero General Public License v3.0', 'GNU General Public License v2.0', 'GNU Lesser General Public License v2.1', 'Mozilla Public License 2.0', 'The Unlicense'],
     },
 ])
@@ -58,7 +57,9 @@ inquirer
 //should this be const questions = or inquirer.prompt? 
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) { }
+function writeToFile(fileName, data) {
+
+ }
 
 // TODO: Create a function to initialize app
 function init() {
