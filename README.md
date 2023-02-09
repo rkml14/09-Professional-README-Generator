@@ -1,36 +1,36 @@
-# stuff
+# Testing Generator
 
   ## Description
-  working on it
+  this will test to see if this actually works
 
 
   ## Table of Contents 
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Credits](#credits)
-  - [License](#license)
-  
+   - [License](#license)
+   - [Contributing](#contributing)
+   - [Test](#test)
+   - [Questions](#questions)
 
   ## Installation
-  never
+  download index.js, generateMarkdown.js, package.json
 
 
   ## Usage
-  sure
+  run it in the terminal using  node index.js
 
 
   ## License
-
-  ![](https://img.shields.io/badge/license-Apache-red)
+  ![](https://img.shields.io/badge/license-Boost Software License 1.0-red)
   
   ## Contributing 
-  
+  No
   
   ## Tests
-  
+  make sure to run node install
   
   ## Questions
    Please contact me via one of the following methods: 
    
-   * Rebecca
-   * sdf
+   * https://github.com/rkml
+   * rkml@gmail.com

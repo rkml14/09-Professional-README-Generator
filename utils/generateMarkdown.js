@@ -27,9 +27,10 @@ function generateMarkdown(data) {
   ## Table of Contents 
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Credits](#credits)
-  ${renderLicenseLink(data.license)}
-  
+   ${renderLicenseLink(data.license)}
+   - [Contributing](#contributing)
+   - [Test](#test)
+   - [Questions](#questions)
 
   ## Installation
   ${data.install}
@@ -45,13 +46,13 @@ function generateMarkdown(data) {
   ## Contributing 
   ${data.contribution}
   
-  ## Tests
+  ## Test
   ${data.test}
   
   ## Questions
    Please contact me via one of the following methods: 
    
-   * ${data.github}
+   * https://github.com/${data.github}
    * ${data.email}
 `;
 }
