@@ -138,7 +138,7 @@ function init() {
         //answers are then saved as a string in markdown, which is run through the writeToFile function to create a README.md file
         .then((answers) => {
             var markdown = generateMarkdown(answers);
-            writeToFile('README.md', markdown);
+            writeToFile('sampleREADME.md', markdown);
         })
 }
 
