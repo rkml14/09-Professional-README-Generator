@@ -1,9 +1,9 @@
-# Generate README.md 
-  ![](https://img.shields.io/badge/license-MIT License-red) 
-  
+# Testing
+  ![](https://img.shields.io/badge/license-apache_2.0-red) 
+
   ## Description
  
-  This application creates a README.md file for the user.  They are prompted to answer some questions regarding their project and it will create the README.md for them.
+  test
 
 
   ## Table of Contents 
@@ -15,21 +15,24 @@
    - [Questions](#questions)
 
   ## Installation
-  Download index.js & package.json from my GitHub profile link under the Questions section below.
+  test
 
 
   ## Usage
-  Not at this time.
+  test
 
 
   ## License
-  
+  Apache License 2.0 
+
+  More information regarding the license can be found at https://choosealicense.com/licenses/apache-2.0
+ 
   
   ## Contributing 
-  Not at this time.
+  test
   
   ## Test
-  Please do not break my stuff.  
+  test
   
   ## Questions
    Please contact me via one of the following methods: 
