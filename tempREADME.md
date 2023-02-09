@@ -12,6 +12,7 @@
 ## Usage
 
 ## License
+![](https://img.shields.io/badge/license-MIT-red)
 
 ## Contributing 
 
