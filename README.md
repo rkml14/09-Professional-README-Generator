@@ -1,7 +1,9 @@
-# Testing Generator
-
+# Generate README.md 
+  ![](https://img.shields.io/badge/license-MIT License-red) 
+  
   ## Description
-  this will test to see if this actually works
+ 
+  This application creates a README.md file for the user.  They are prompted to answer some questions regarding their project and it will create the README.md for them.
 
 
   ## Table of Contents 
@@ -13,24 +15,24 @@
    - [Questions](#questions)
 
   ## Installation
-  download index.js, generateMarkdown.js, package.json
+  Download index.js & package.json from my GitHub profile link under the Questions section below.
 
 
   ## Usage
-  run it in the terminal using  node index.js
+  Not at this time.
 
 
   ## License
-  ![](https://img.shields.io/badge/license-Boost Software License 1.0-red)
+  
   
   ## Contributing 
-  No
+  Not at this time.
   
-  ## Tests
-  make sure to run node install
+  ## Test
+  Please do not break my stuff.  
   
   ## Questions
    Please contact me via one of the following methods: 
    
-   * https://github.com/rkml
-   * rkml@gmail.com
+   * https://github.com/rkml14
+   * rkmlawrence@gmail.com
