@@ -17,9 +17,20 @@ Things I learned from this application:
 - learning Write - File in javascript
 - keeping my code DRY
 
+  ## Table of Contents 
+  - [Installation](#installation)
+  - [Usage](#usage)
+   - [License](#license)
+   - [Contributing](#contributing)
+   - [Test](#test)
+   - [Questions](#questions)
+
 
 
 ## Installation
+
+The following images provide a walkthrough on how to use the application.
+
 
 Download the index.js, the utils folder containing generateMarkdown.js and package.json   
 
@@ -27,13 +38,28 @@ Run the application via the terminal using the command prompt: node index.js
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+In the terminal, using the command prompt: node index.js 
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+![how-to-run-the-application](./images/run-the-application.png)
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+The list of questions is asked of the user, along with a choice of licenses to pick from:
+
+![list-of-questions-and-licenses-for-the-user-to-choose-from](./images/list-of-questions-licences.png)
+
+Once the questions are answered, the sampleREADME is generated and a confirmation message of "Success! README.md has been generated" is displayed in the terminal
+
+![success-message-prints-to-the-terminal](./images/Success-readme-has-been-generated.png)
+
+The sample README in markdown language can be viewed:
+
+![example-of-the-generated-readme-file-in-markdown](./images/sample-readme-in-markdown.png)
+
+An animation demonstrating the steps of the application and the created readme in markdown & preview:
+![animated-demonstration-of-application-resulting-in-readme-in-markdown-and-preview](./images/animated-walkthrough-demonstration.gif)
+
+
+
+
 ## Contributing
 If you would like to contribute to this application, please reach out to me via one of the means listed under Questions.
 

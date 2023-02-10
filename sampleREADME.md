@@ -1,5 +1,5 @@
 # README.md generator
-  ![](https://img.shields.io/badge/license-mpl_2.0-blue) 
+  ![](https://img.shields.io/badge/license-mit-blue) 
 
   ## Description
  
@@ -23,9 +23,9 @@
 
 
   ## License
-  Application is covered by the Mozilla Public License 2.0 license 
+  Application is covered by the MIT License license 
 
-  More information regarding said license can be found at https://choosealicense.com/licenses/mpl-2.0
+  More information regarding said license can be found at https://choosealicense.com/licenses/mit
  
   
   ## Contributing 
