@@ -120,7 +120,6 @@ const questions =
         },
     ]
 
-
 //Pass parameters of fileName, data into the writeToFile function, and return either an error msg or confirmation messge
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, function (err) {

@@ -5,25 +5,25 @@
 This application allows the user to create a high-quality README for their application that they have created as an open source project on GitHub.   
 By providing details regarding their GitHub profile, email address, Project Name along with further details regarding the Project (description, installation instructions, usage information, contribution guidelines and test instructions) and picking out which license they would prefer to use; the application will create a professional README.md file.  
 
+My motivation was to build an application that would allow for easy and rapid creation of a README.md  for future projects to be stored in my GitHub repository.  This will allow for consistent README.md files across all my projects.  
+
+Things I learned from this application:
+- package.json
+- inquirier.prompt and adding values to choices to expand the usable data 
+- learned about tying required packages to an application 
+- modularization 
+- using temperate literals
+- using ternary operators
+- learning Write - File in javascript
+- keeping my code DRY
 
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+Download the index.js, the utils folder containing generateMarkdown.js and package.json   
+
+Run the application via the terminal using the command prompt: node index.js  
 
 ## Usage
 
@@ -34,37 +34,22 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
     ```md
     ![alt text](assets/images/screenshot.png)
     ```
+## Contributing
+If you would like to contribute to this application, please reach out to me via one of the means listed under Questions.
+
+## Tests 
+None at this time
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+Cassandra Watson https://github.com/cassiewatsonn 
 
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+MIT License 
 
----
+## Questions
 
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-## Features
-
-If your project has a lot of features, list them here.
-
-## How to Contribute
-
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-## Tests
-
-Go the extra mile and write tests for your 
+If you have any questions regarding this application, please contact me via one of the means below:
+Rebecca Lawrence  https://github.com/rkml14
+rkmlawrence@gmail.com  

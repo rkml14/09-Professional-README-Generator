@@ -15,8 +15,8 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   if (license === "none") return "";
   let licenseHeader = `## License
-  ${license.header} \n
-  More information regarding the license can be found at https://choosealicense.com/licenses/${license.github}`;
+  Application is covered by the ${license.header} license \n
+  More information regarding said license can be found at https://choosealicense.com/licenses/${license.github}`;
   return licenseHeader;
 }
 
